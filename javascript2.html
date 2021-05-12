@@ -1,0 +1,47 @@
+
+<link rel="stylesheet" href="css_stylesheet.css"/>
+
+<link href='https://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
+
+
+function make_more(){
+	var div = document.getElementById('div1');
+  var html = div.innerHTML;
+  html += "<div>Made More...</div>";
+  html += "<button onclick='make_more()'>More</button>"
+  div.innerHTML = html;
+}
+
+function make_less(){
+var div = document.getElementById('div1');
+var html = "<button onclick='make_more()'>More</button>";
+html += "<button onclick='make_less()'>Less</button>";
+div.innerHTML = html;
+}
+
+function make_white(){
+var div = document.getElementById('div1');
+var style = "background-color:white";
+div.style = style;
+}
+
+function make_blue(){
+var div = document.getElementById('div1');
+var style = "background-color:blue";
+div.style = style;
+}
+function make_purple(){
+var div = document.getElementById('div1');
+var style = "background-color:purple";
+div.style = style;
+}
+
+
+var x; //numeric
+x = 6;
+var s = 'Hello'; //string
+var b = true; //boolean true or false
+var ls = [1,1,x,x,s,b]; //list with mixed data types
+var obj = {'key':'value', 'key':'value'};
+document.getElementById("demo").innerHTML = ls;
+document.getElementById("demo").style = 'color:white';
