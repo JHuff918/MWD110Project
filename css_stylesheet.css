@@ -2,3 +2,59 @@ body {
 	background-color: hsl(198, 100%, 75%);
 	font-family: 'Fredoka One', cursive;
 }
+
+#top-nav {
+  height: 60px;
+  font-family: Arial;
+  background-color: rgb(240, 240, 240)
+}
+
+#nintendo_1 {
+  position: relative;
+  top: 10px;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  width: 60px;
+  height: 70px;
+  border: 2px;
+  border-radius: 6px;
+}
+
+#search_1 {
+  position: relative;
+  top: 10px;
+  padding: 10px;
+  border: 2px solid #000;
+  border-radius: 6px;
+}
+
+#top-menu {
+  float: right;
+  position: relative;
+  top: 10px;
+}
+
+#below-banner {
+  border: 2px solid #eee;
+  padding: 30px;
+}
+
+#available {
+  position: relative;
+  left: 250px;
+
+}
+
+#blue-button {
+  position: relative;
+  left: 260px;
+  padding: 10px;
+  background-color: hsl(198, 100%, 30%);
+  color: white;
+  width: 60px;
+  height: 70px;
+  border: 2px;
+  border-radius: 6px;
+
+}
