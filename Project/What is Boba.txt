@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link href='https://fonts.googleapis.com/css?family=Jua' rel='stylesheet' type='text/css'>
+
+<h1>What is Boba?</h1>
+
+</head>
+
+<h3>Boba, or bubble tea, is a drink that was created in Taiwan in the 1980s. It is a tea-based drink that usually contains tapioca pearls (boba) that are chewy, however it can be made with other toppings</h3>
+
+<p>Bubble/Boba tea comes in a wide variety of flavors, check out the  video below to learn more!</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VTpXWusPinA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
